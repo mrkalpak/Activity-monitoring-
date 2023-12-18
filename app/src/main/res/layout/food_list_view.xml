@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- First 80% (Left Side) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:textAlignment="viewStart">
+
+        <!-- First TextView -->
+        <TextView
+            android:id="@+id/food_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Name x 10"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:padding="2dp"
+            android:gravity="start" />
+
+        <!-- Second TextView -->
+        <TextView
+            android:id="@+id/food_calories_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:textSize="16sp"
+            android:textColor="#6E6E6E"
+            android:paddingStart="4dp"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <!-- Last 20% (Right Side) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Delete Icon (You can replace with your icon) -->
+        <ImageView
+            android:id="@+id/food_delete_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_outline_24"
+            android:contentDescription="Delete"
+            android:padding="8dp" />
+    </LinearLayout>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        />
+</LinearLayout>

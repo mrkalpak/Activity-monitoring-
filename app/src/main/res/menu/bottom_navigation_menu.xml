@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_white"/>
+    <item
+        android:id="@+id/navigation_diet"
+        android:title="Diet"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        />
+    <item
+        android:id="@+id/navigation_assistant"
+        android:icon="@drawable/ic_baseline_mic_24"
+        android:title="AI Assistant" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Profile" />
+
+
+</menu>

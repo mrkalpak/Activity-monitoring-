@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "726445186162",
+    "firebase_url": "https://ai-based-activity-monitoring-default-rtdb.firebaseio.com",
+    "project_id": "ai-based-activity-monitoring",
+    "storage_bucket": "ai-based-activity-monitoring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726445186162:android:1a493abe3e49d98d9bf6eb",
+        "android_client_info": {
+          "package_name": "com.example.finalyearproject_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726445186162-if8nvleroq0eb24g7sa6cvq1nj1d8eqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalyearproject_android",
+            "certificate_hash": "f10c714ec77575645ad52e77a75ee23baa732746"
+          }
+        },
+        {
+          "client_id": "726445186162-ihoh4l1vgru2ahjebhh3u3269u21drte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH_IMUniYrT32DG-xFCCy6gSSda47wVo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726445186162-ihoh4l1vgru2ahjebhh3u3269u21drte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

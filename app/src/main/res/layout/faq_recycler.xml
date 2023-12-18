@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/border_only_faq">
+
+    <RelativeLayout
+        android:id="@+id/faq_question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/faq_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_toStartOf="@+id/faq_d"
+            android:text="Question Text" />
+
+        <ImageView
+            android:id="@+id/faq_d"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/faq_answer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/faq_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:text="Answer of the question\nhgjhghjgjgjhgjhg\nvjvhjv"/>
+
+    </LinearLayout>
+
+</LinearLayout>
